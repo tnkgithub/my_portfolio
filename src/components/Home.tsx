@@ -41,7 +41,7 @@ const Home = () => {
             </div>
             <div>
                 <h2 className="text-center text-3xl mb-4 font-medium">
-                    基本情報
+                    情報
                 </h2>
             </div>
                 <div className="container text-lg leading-relaxed md:text-xl xl:text-2xl flex justify-center mx-auto">
