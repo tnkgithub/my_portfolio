@@ -6,24 +6,30 @@ const Home = () => {
                     About
                 </h1>
             </div>
-            <div className="container mx-auto flex flex-col items-center px-5 py-10 md:flex-row">
-                <div className="mb-10 w-5/6 md:mb-0 md:w-2/5 lg:max-w-lg">
+            <div className="container mx-auto flex flex-col items-center justify-center px-5 py-10 md:flex-row">
+                <div className="mb-10 w-5/6 md:mb-0 md:w-3/5 lg:w-96">
                     <img
                         className="rounded-md shadow-lg"
                         src="./imgs/my_big_img.JPG"
                         alt=""
                     />
                 </div>
-                <div className="flex flex-col  items-center md:w-3/5  md:pl-8 lg:pl-12 xl:pl-24">
+                <div className=" flex  flex-col items-center md:w-3/5  md:pl-8 lg:pl-12 xl:pl-24">
                     <h2 className="mb-4 text-center text-3xl font-medium text-gray-900 md:text-4xl">
                         田中駿平
                     </h2>
-                    <a className="pb-6 leading-relaxed text-lg">
-                    　北海道亀田郡七飯町（函館市の隣町）育ちの大学院生。小中高とサッカー部に所属。中学のときに見た映画 『トランスフォーマー』 に影響され，CGに興味を持つ。高校は私立函館ラ・サール高校に進学し，勉学に励む。大学は実家近くの公立はこだて未来大学に進学し，プログラミングの勉強を開始。プログラミングの楽しさに目覚める。優秀な先輩方に憧れ，大学院に進学を決意。研究はデジタルアーカイブにおける、画像とメタデータの類似性に基づいた探索支援。趣味はサッカー観戦 (特にコンサドーレ札幌を応援、プレミアリーグなどの海外リーグも観戦)，読書 (森見登美彦や伊藤計劃など，主にファンタジーやSF，ミステリーを読み漁る)，プログラミング(主にフロントエンド)。
+                    <a className="pb-6 indent-4 text-lg leading-relaxed">
+                        北海道亀田郡七飯町（函館市の隣町）育ちの大学院生。小中高とサッカー部に所属。中学のときに見た映画
+                        『トランスフォーマー』
+                        に影響され，CGに興味を持つ。実家近くの公立はこだて未来大学に進学し，プログラミングの勉強を開始。プログラミングの楽しさに目覚める。優秀な先輩方に憧れ，大学院に進学を決意。研究はデジタルアーカイブにおける、画像とメタデータの類似性に基づいた探索支援。趣味はサッカー観戦
+                        (特にコンサドーレ札幌を応援、プレミアリーグなどの海外リーグも観戦)，読書
+                        (好きな作家は森見登美彦や伊藤計劃など。主にファンタジー
+                        ・ SF ・
+                        ミステリーを読み漁る)，プログラミング(主にフロントエンド)。
                     </a>
                     <a
                         href="https://github.com/tnkgithub"
-                        className="mt-0 inline-flex items-center rounded-lg bg-gray-200 px-5 py-3 duration-300 hover:bg-cyan-200 focus:outline-none md:mt-4 lg:mt-0"
+                        className=" mt-4 inline-flex items-center rounded-lg bg-gray-200 px-5 py-3 duration-300 hover:bg-cyan-200 focus:outline-none"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -39,44 +45,6 @@ const Home = () => {
                     </a>
                 </div>
             </div>
-            <div>
-                <h2 className="text-center text-3xl mb-4 font-medium">
-                    情報
-                </h2>
-            </div>
-                <div className="container text-lg leading-relaxed md:text-xl xl:text-2xl flex justify-center mx-auto">
-                    <div className="px-2 text-left ">
-                        <ul className="">
-                            <li className="pb-1">
-                                <a className="font-bold">出身｜</a>
-                                <a>北海道亀田郡七飯町（函館市の隣町）</a>
-                            </li>
-                            <li className="pb-1">
-                                <a className="font-bold">生年月日｜</a>
-                                <a>2000年4月13日（23歳）</a>
-                            </li>
-                            <li className="pb-1">
-                                <a className="font-bold">所属｜</a>
-                                <a>
-                                    公立はこだて未来大学大学院システム情報科学研究科
-                                </a>
-                            </li>
-                            <li className="pb-1">
-                                <a className="font-bold">部活｜</a>
-                                <a>
-                                    サッカー部（ポジション：右サイドバック）
-                                </a>
-                            </li>
-                            <li className="pb-1">
-                                <a className="font-bold">趣味｜</a>
-                                <a>
-                                    読書 ・ サッカー観戦 ・ ゲーム ・
-                                    プログラミング
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
         </section>
     );
 };
