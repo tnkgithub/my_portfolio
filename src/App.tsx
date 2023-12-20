@@ -1,6 +1,7 @@
 // import { useState } from "react";
 import Header from "./components/Header";
-import Home from "./components/Home";
+import About from "./components/About";
+import Skills from "./components/Skills";
 
 function App() {
     const menuList = [
@@ -13,7 +14,8 @@ function App() {
     return (
         <>
             <Header list={menuList} />
-            <Home />
+            <About />
+            <Skills />
         </>
     );
 }
